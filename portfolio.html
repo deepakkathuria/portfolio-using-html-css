@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<title>Deepak Kathuria</title>
+<link rel="shortcut icon" type="image/jpg"
+href="/home/deepak/Desktop/deepak portfoio/titlelogo.png"/>
+<style>
+* {
+  box-sizing: border-box;
+ 
+}
+
+
+  .column1 {
+    width: 20%;
+  
+    margin-left: 30px;
+    font-size: large;
+    color: blue;
+    padding: 10px;
+    height: auto;
+
+
+    
+  }
+
+  
+  .column2 {
+    float: right;
+    width: 78%;
+    padding: 10px;
+    height: auto;
+    font-size:large;
+
+  } 
+
+ .photo {
+	margin: auto;
+	height: 90px;
+	width: auto;
+	overflow: hidden;
+} 
+.item-1{
+    color: blue;
+  position: absolute;
+  display: block;
+   top: 2em; 
+  
+  width: 60%;
+  
+  font-size: 2em;
+
+}
+.Skill {
+  margin: auto;
+  text-align: center;
+  line-height: 20pt;
+  float: left;
+  width:33.3%;
+  padding: 10px;
+  height: 220px;
+  border: 4px solid yellow;
+  border-radius: 35px;
+}
+
+h4 {
+	color:blue;
+}
+
+p {
+	font-size: 12px;
+	font-family: cursive;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+	font-family: Garamond;
+	font-size: 14px;
+}
+
+a:hover {
+	color: #cc00cc
+}
+
+/* Container around content */
+.container {
+  padding: 5px 5px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+  border: 4px solid yellow;
+  border-radius: 30px;
+}
+
+/* The circles on the timeline */
+.container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 4px solid #FF9F55;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+  left: 50%;
+}
+
+/* Place the container to the right */
+.right {
+  left: 0%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -18px;
+}
+
+.content {
+  padding: 10x 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 10pxpx;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+  
+.container {
+  width: 40%;
+  padding-left: 70px;
+  padding-right: 25px;
+  }
+  
+/* Arrows*/
+.container::before {
+  left: 60px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+  }
+
+/*For circles*/
+.left::after, .right::after {
+  	left: 10px;
+  }
+ /* Left containers position */ 
+.right {
+	left: 0%;
+} */
+
+
+
+
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="m">
+
+<div class="row">
+    <div class="column1">
+        <div class="photo">
+            <!-- <img src="C:/Users/new/Desktop/Personal Portofolio/Avatar.jpg" alt="Avatar.png"> -->
+        </div>
+      <h2 style="font-family: Monospace">Deepak Kathuria</h2>
+      <a href="https://accounts.google.com/ServiceLogin/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=AddSession" 
+      style="text-decoration: underline;" target="blank">deepakkathuria32@gmail.com</a>
+      <br>
+      <a href="#introduction">INTRODUCTION</a>
+      <br>
+      <a href="#about">ABOUT</a>
+      <br>
+      <a href="#timeline">TIMELINE</a>
+      <br>
+      <a href="https://www.facebook.com/deepak.kathuria.140" target="blank" class="fa fa-facebook"></a>
+      <br>
+      <!-- <a href="https://www.instagram.com/the_manishrana/" target="blank" class="fa fa-instagram"></a>
+      <br> -->
+      <a href="www.linkedin.com/in/deepak-kathuria-b46389104" target="blank" class="fa fa-linkedin"></a>
+      <br>
+      <!-- <a href="https://github.com/ManishSudo" target="blank" class="fa fa-github"></a>
+      <br> -->
+      <!-- <p>Made with <i class="fa fa-heart"></i> and <i class="fa fa-coffee"></i></p>-->
+    </div> 
+  
+    <div class="column2">
+        <div class="image">
+            <img src="C:/Users/new/Desktop/Personal Portofolio/image.jpg" alt="image.jpg">
+        <p class="item-1">
+          HELLO! I am deepak
+          <br>
+          <button onclick="window.open('#','_blank'); return false;">View CV</button>
+        </p>
+        <p class="item-2">
+          <!-- I love building things
+          <br>
+          <button onclick="window.open('https://github.com/ManishSudo','_blank'); return false;">My Projects</button>
+        </p>
+        <p class="item-3">
+        Checkout My Website -->
+        <!-- <br>
+        <button onclick="window.open('#','_blank'); return false;">My Website</button> -->
+      </p>
+        </div>
+                  <a id="introduction"><h4>ABOUT ME</h4></a>
+          <p>I am Computer Science Engineer graduated from Samalkha Group of institutions kurukshetra Universty. Apart from my professional degree I have Done two internship in TECHSUPPORT and DEVOPS And a part from this I also made Project on python django which is Live. I am very Hungry to learn new technologies and interested more in DEVOPS and Python  </p>
+          <a id="about"><h4>MY Work</h4></a>
+          <div class="expertise">
+              <div class="Skill">
+                  <div class="content">
+                      <h4><u>IT TECH SUPPORT</u></h4>
+                      <p>I have experience in IT TechSupport in which i developed my networking skills and configuration and troubleshooting skills </p>
+                  </div>
+              </div>
+              <div class="Skill">
+                  <div class="content">
+                      <h4><u>DEVOPS</u></h4>
+                      <p>I have done internship in devops and learn and develope various skills.In This i worked totally on linux(ubantu) and worked also in AWS ,GIT ,JENKINS tool and also develop SQL dump script and also helps in jenkins automation to create job in jenkins</p>
+                  </div>
+              </div>
+              <div class="Skill">
+                  <div class="content">
+                      <h4><u>Python/Django</u></h4>
+                      <p>I learn python django by self training and develped blog project and deploy onto pythonanywhere.com</p>
+                      <a href="http://deepakblogproject.pythonanywhere.com/">
+                    </div>
+              </div>
+          </div>
+          &nbsp;
+          <a id="timeline"><h4>MY TIMELINE</h4></a>
+          <div class="timeline">
+              <div class="container left">
+                  <div class="content">
+                      <h4>DEVOPS and WEB Intern In Cognitensor (7march 2021-Present)</h4>
+                      <p>After my graduation i am now persuing internship in cognitensor in this i have to work in devops and web.</p>
+                  </div>
+              </div>
+              <div class="container right">
+                  <div class="content">
+                      <h4>Work Experience (2 JAN 2020-28 FEB 2020)</h4>
+                      <p> I have worked in DEVOPS in ALGOWORKS Noida for 2 months in this i worked on linux ,git ,jenkins and AWS and help them in the automation </p>
+                  </div>
+              </div>
+              <div class="container left">
+                  <div class="content">
+                      <h4>Internships (1 FEB 2019 - 2 APRIL 2019)</h4>
+                      <p>I have worked as IT tech support in CSL finance in this I worked in networking ,configuration softwares and troubleshooting.</p>
+                  </div>
+              </div>
+              <div class="container right">
+                  <div class="content">
+                      <h4>BTECH CSE (2016-2020)</h4>
+                      <p>I completed my studies in Computer Science Background with 73% </p>
+                  </div>
+              </div>
+              <div class="container left">
+                  <div class="content">
+                      <h4> Higher Education (2015)</h4>
+                      <p>I have completed my higher secondary education with major subjects as Physics,Chemistry & Maths .</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  </div>
+  </div>
+  </head>
+  </body>
+  </html>
+  
+
+
